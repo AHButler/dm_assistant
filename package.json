@@ -1,0 +1,31 @@
+{
+  "name": "dm_assistant",
+  "version": "0.1.0",
+  "description": "A friendly helper for your average DM",
+  "main": "bot.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AHButler/dm_assistant.git"
+  },
+  "keywords": [
+    "node.js",
+    "d&d",
+    "discord"
+  ],
+  "author": "Alex Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AHButler/dm_assistant/issues"
+  },
+  "homepage": "https://github.com/AHButler/dm_assistant#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
