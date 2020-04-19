@@ -2,10 +2,11 @@
   "name": "dm_assistant",
   "version": "0.1.0",
   "description": "A friendly helper for your average DM",
-  "main": "bot.js",
+  "main": "src/bot.js",
   "scripts": {
     "test": "npm test",
-    "dev": "nodemon src/bot.js"
+    "dev": "nodemon src/bot.js",
+    "run": "node src/bot.js"
   },
   "repository": {
     "type": "git",
