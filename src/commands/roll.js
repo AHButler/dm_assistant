@@ -12,7 +12,6 @@ const roll = {
         }
         // Roll the dice...
         const roll = Math.ceil(Math.random() * dice_type);
-
         // For natural max of the decided die size
         if (roll == args[0]) {
             message.reply(`Wow, you rolled a natural ${args[0]}!!`)
