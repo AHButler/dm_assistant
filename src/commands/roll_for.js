@@ -26,7 +26,7 @@ const roll = {
       }
       // For everything else
     } else {
-      message.reply(`${arg[0]} rolled ${roll + modifier}`);
+      message.reply(`${args[0]} rolled ${roll + modifier}`);
     }
   },
 };
