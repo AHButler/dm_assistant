@@ -14,19 +14,19 @@ const roll = {
     const roll = Math.ceil(Math.random() * dice_type);
     // For natural max of the decided die size
     if (roll == args[0]) {
-      message.reply(`Uff, ${args[0]} rolled a natural ${args[1]}!!`);
+      message.channel.send(`Uff, ${args[0]} rolled a natural ${args[1]}!!`);
       if (args.length > 1) {
-        message.reply(`With their modifier, that's ${roll + modifier}!`);
+        message.channel.send(`With their modifier, that's ${roll + modifier}!`);
       }
       // For bad luck
     } else if (roll == 1) {
-      message.reply(`Woo, ${args[0]} rolled a natural 1`);
+      message.channel.send(`Woo, ${args[0]} rolled a natural 1`);
       if (args.length > 1) {
-        message.reply(`With their modifier, that's ${roll + modifier}!`);
+        message.channel.send(`With their modifier, that's ${roll + modifier}!`);
       }
       // For everything else
     } else {
-      message.reply(`${args[0]} rolled ${roll + modifier}`);
+      message.channel.send(`${args[0]} rolled ${roll + modifier}`);
     }
   },
 };
